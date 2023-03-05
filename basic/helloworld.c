@@ -1,7 +1,15 @@
-echo "# C-ver-fundamental" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/HungTruong4689/C-ver-fundamental.git
-git push -u origin main
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+	
+    char s[100];
+    scanf("%[^\n]%*c", &s);
+  	
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    printf("Hello, World! \n");
+    printf(&s);
+    return 0;
+}
